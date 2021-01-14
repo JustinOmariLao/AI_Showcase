@@ -1,0 +1,2324 @@
+INFO:root:
+Selector: High Level Ordering of Strategies
+| Sequence: Gambit
+| | Check: is_attacking
+| | Action: attack_or_defend
+| Sequence: Spread Strategy
+| | Check: not_attacking
+| | Check: if_neutral_planet_available
+| | Action: spread_to_weakest_neutral_planet
+| Sequence: War
+| | Check: have_largest_fleet
+| | Action: attack_weakest_enemy_planet
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:1 9 21.0
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: War -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:1 9 22.0
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: War -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:1 9 23.0
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: War -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 18 40.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 18 42.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 18 44.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 18 46.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:9 9 26
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 6 13.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 0 43.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 0 34.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 0 37.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 0 40.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 6 23.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:9 28.0 38
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 6 21.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:9 30.0 38
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:9 31.0 38
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:0 12 32.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:0 12 37.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:0 11 58.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 18 24.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 19 14.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 0 36
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 18 30.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 19 17.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 15 23.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:0 0 36
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 19
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 19
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 16 26.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:0 17 27.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 6 19
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 5 27.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:11 32.0 51
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 18 35
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 5 37.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 17 39.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:19 25.0 47.0
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:18 26.0 29.0
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:18 28.0 32.0
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:18 30.0 37.0
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 18 35
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 18 35
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:17 0 44.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 46
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 21 41.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 46
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 0 47.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 46
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 46
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 46
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:15 14 54.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 46
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 46
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:0 17 37.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 6 46
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 11 48.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 11 53.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:5 16 29.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:0 38.0 46
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:1 42.0 46
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 19 46
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:19 39.0 46.0
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:15 9 35.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 16 47.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 20 44.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 14 26.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Bad order:6 48.0 57
+DEBUG:root:Result: Action: attack_or_defend -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 13 39.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 43
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 43
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 6 43
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 6 43
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:6 14 40.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 13 45.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:21 13 43.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 0 14.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 0 17.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 0 29.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 0 23.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 16 29.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 15 96.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 13 45
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:12 6 22.0
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: War -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: War -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Failure
+DEBUG:root:Result: Sequence: Gambit -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: not_attacking
+DEBUG:root:Result: Check: not_attacking -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Sequence: War
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:0 6 24.0
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: War -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 16 63
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 15 40.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:0 17 73.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:21 5 45.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 15 49.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 5 45.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 17 85.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 6 24.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:15 22 107.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 16 63
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 16 63
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 16 63
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 16 63
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 16 63
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 16 63
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 7 20.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 16 63
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 7 38.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 16 63
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:18 7 47.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 7 35.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:14 20 48.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:21 6 34
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:12 2 110.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:22 20 49.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:0 2 110.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 8 38.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 8 77.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:15 20 59.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:17 2 72.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:7 8 89.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:13 5 17.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:21 0 39
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:11 8 59.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 5 15.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:19 5 29.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:2 9 52.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:2 9 15.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:2 9 16.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:2 9 17.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:2 9 18.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:2 9 19.0
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:2 20 59
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:1 8 39
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:2 8 39
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:22 8 39
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:16 8 39
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Gambit
+DEBUG:root:Executing:Check: is_attacking
+DEBUG:root:Result: Check: is_attacking -> Success
+DEBUG:root:Executing:Action: attack_or_defend
+DEBUG:root:Order:9 8 39
+DEBUG:root:Result: Action: attack_or_defend -> Success
+DEBUG:root:Result: Sequence: Gambit -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+

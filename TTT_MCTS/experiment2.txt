@@ -1,0 +1,5 @@
+Experiment 2:
+
+We tested with a size of 100 and the results were not very good. The results were draw 28, win 34, lose 38. As we increased the size, it got increasingly better but not by much.
+Our best record with 1000 trees was draw 18, win 54, lose 28. We assume it is because either the heuristic was misleading (such as prioritizing 
+winning a smaller board instead of winning the whole game) or because the moves we took helped the other bot as well.

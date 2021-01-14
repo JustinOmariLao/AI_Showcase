@@ -1,0 +1,12 @@
+Made by
+Justin Lao, jlao3
+Claudio Sangeroki, csangero
+
+
+We tried using a scoring system where each available move was scored and take the move with the max score but it took too long so we scrapped the idea.
+We used a simple heuristic for the rollout. It checked for two rules: If the player has a winning move in a local board, 
+take it and if the opponent has a winning move, block it. We tried checking every possible move for a winning or blocking move but the loop
+took extremely long at around 7 mins for a single game. We tried 10 games and we won 6 and drew 2 but it took too long and we decided
+that we can't run 100 games with this model. We then dumbed it down to take a random choice of 3 possible moves, and if there
+is a winning or blocking move, take it. This significantly increased the speed but our winrate took a hit. Even though it increased the speed it ran
+for around 2-3 hours for 100 games using 1000 trees.
